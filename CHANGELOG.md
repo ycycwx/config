@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ycycwx/config/compare/v1.1.0...v1.2.0) (2022-04-23)
+
+
+### Features
+
+* off rule no-misused-promises ([591700b](https://github.com/ycycwx/config/commit/591700bfc892b5e51e193526d59f440084a75af0))
+
 # [1.1.0](https://github.com/ycycwx/config/compare/v1.0.0...v1.1.0) (2022-04-23)
 
 
