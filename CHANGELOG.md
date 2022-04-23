@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ycycwx/config/compare/v1.0.0...v1.1.0) (2022-04-23)
+
+
+### Features
+
+* add public access ([2d9abcc](https://github.com/ycycwx/config/commit/2d9abccf7e0bae8933fdeb821ce4944f18817215))
+
 # 1.0.0 (2022-04-23)
 
 
