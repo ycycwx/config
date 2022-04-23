@@ -91,6 +91,7 @@ module.exports = {
                 '@typescript-eslint/no-inferrable-types': ['off'],
                 '@typescript-eslint/no-magic-numbers': ['off'],
                 '@typescript-eslint/no-misused-new': ['error'],
+                '@typescript-eslint/no-misused-promises': ['off'],
                 '@typescript-eslint/no-namespace': ['error'],
                 '@typescript-eslint/no-non-null-assertion': ['off'],
                 '@typescript-eslint/consistent-type-assertions': ['error'],
