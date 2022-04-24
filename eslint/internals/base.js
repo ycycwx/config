@@ -346,6 +346,7 @@ module.exports = {
                 multiline: true,
             },
         ],
+        // use @babel/eslint-plugin replace
         'object-curly-spacing': ['off'],
         'object-property-newline': ['off'],
         'object-shorthand': ['off', 'consistent-as-needed'],
