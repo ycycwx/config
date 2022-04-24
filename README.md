@@ -4,22 +4,22 @@ Extract common config
 
 ## eslint
 
-```json
-{
-    "extends": [
-        "@yotsubacy/config/eslint/browser",
-        "@yotsubacy/config/eslint/react",
-        "@yotsubacy/config/eslint/typescript",
+```js
+modules.exports = {
+    extends: [
+        '@yotsubacy/config/eslint/browser',
+        '@yotsubacy/config/eslint/react',
+        '@yotsubacy/config/eslint/typescript',
     ],
     // use typescript config
-    "parserOptions": {
-        "tsconfigRootDir": __dirname,
-        "project": ['./tsconfig.json'],
+    parserOptions: {
+        tsconfigRootDir: __dirname,
+        project: ['./tsconfig.json'],
     }
 }
 
-{
-    "extends": ["@yotsubacy/config/eslint/node"],
+modules.exports = {
+    extends: ['@yotsubacy/config/eslint/node'],
 }
 ```
 
