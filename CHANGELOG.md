@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/ycycwx/config/compare/v1.2.0...v1.2.1) (2022-04-24)
+
+
+### Bug Fixes
+
+* remove useless babel module ([425568c](https://github.com/ycycwx/config/commit/425568c989f3349aa889e6f3523cc7729e582368))
+
 # [1.2.0](https://github.com/ycycwx/config/compare/v1.1.0...v1.2.0) (2022-04-23)
 
 
