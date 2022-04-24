@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/ycycwx/config/compare/v1.2.1...v1.3.0) (2022-04-24)
+
+
+### Features
+
+* add @babel/eslint-plugin ([6395644](https://github.com/ycycwx/config/commit/63956443132ca6ddd86494af66eec5bc6281a56a))
+
 ## [1.2.1](https://github.com/ycycwx/config/compare/v1.2.0...v1.2.1) (2022-04-24)
 
 
