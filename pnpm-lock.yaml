@@ -3,7 +3,6 @@ lockfileVersion: 5.3
 specifiers:
   '@babel/core': 7.17.9
   '@babel/eslint-parser': ^7.17.0
-  '@babel/helper-plugin-utils': ^7.16.7
   '@rushstack/eslint-patch': ^1.1.3
   '@semantic-release/changelog': ^6.0.1
   '@semantic-release/git': ^10.0.1
@@ -23,7 +22,6 @@ specifiers:
 
 dependencies:
   '@babel/eslint-parser': 7.17.0_@babel+core@7.17.9+eslint@8.14.0
-  '@babel/helper-plugin-utils': 7.16.7
   '@rushstack/eslint-patch': 1.1.3
   '@typescript-eslint/eslint-plugin': 5.20.0_81f0d1a74f014d44d273bd1612c85fd9
   '@typescript-eslint/parser': 5.20.0_eslint@8.14.0+typescript@4.6.3
@@ -168,11 +166,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
-
-  /@babel/helper-plugin-utils/7.16.7:
-    resolution: {integrity: sha512-Qg3Nk7ZxpgMrsox6HreY1ZNKdBq7K72tDSliA6dCl5f007jR4ne8iD5UzuNnCJH2xBf2BEEVGr+/OL6Gdp7RxA==}
-    engines: {node: '>=6.9.0'}
-    dev: false
 
   /@babel/helper-simple-access/7.17.7:
     resolution: {integrity: sha512-txyMCGroZ96i+Pxr3Je3lzEJjqwaRC9buMUgtomcrLe5Nd0+fk1h0LLA+ixUF5OW7AhHuQ7Es1WcQJZmZsz2XA==}
