@@ -4,6 +4,8 @@ Customize common config
 
 ## ESLint
 
+### TypeScript
+
 ```js
 const {resolve} = require('path');
 
@@ -12,9 +14,9 @@ const project = resolve(__dirname, 'tsconfig.json');
 modules.exports = {
     root: true,
     extends: [
-        '@yotsubacy/config/eslint/browser',
-        '@yotsubacy/config/eslint/react',
-        '@yotsubacy/config/eslint/typescript',
+        require.resolve('@yotsubacy/config/eslint/browser'),
+        require.resolve('@yotsubacy/config/eslint/react'),
+        require.resolve('@yotsubacy/config/eslint/typescript'),
     ],
     // use typescript config
     parserOptions: {
@@ -28,9 +30,13 @@ modules.exports = {
         },
     },
 };
+```
 
+### Node
+
+```js
 modules.exports = {
-    extends: ['@yotsubacy/config/eslint/node'],
+    extends: [require.resolve('@yotsubacy/config/eslint/node')],
 };
 ```
 
