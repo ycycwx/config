@@ -1,11 +1,16 @@
 # Config
 
-Extract common config
+Customize common config
 
-## eslint
+## ESLint
 
 ```js
+const {resolve} = require('path');
+
+const project = resolve(__dirname, 'tsconfig.json');
+
 modules.exports = {
+    root: true,
     extends: [
         '@yotsubacy/config/eslint/browser',
         '@yotsubacy/config/eslint/react',
@@ -13,17 +18,23 @@ modules.exports = {
     ],
     // use typescript config
     parserOptions: {
-        tsconfigRootDir: __dirname,
-        project: ['./tsconfig.json'],
-    }
-}
+        project,
+    },
+    settings: {
+        'import/resolver': {
+            typescript: {
+                project,
+            },
+        },
+    },
+};
 
 modules.exports = {
     extends: ['@yotsubacy/config/eslint/node'],
-}
+};
 ```
 
-## typescript
+## TypeScript
 
 ```json
 {
