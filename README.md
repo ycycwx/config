@@ -7,7 +7,7 @@ Customize common config
 ### TypeScript
 
 ```js
-const {resolve} = require('path');
+const {resolve} = require('node:path');
 
 const project = resolve(__dirname, 'tsconfig.json');
 
