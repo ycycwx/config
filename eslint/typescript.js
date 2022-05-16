@@ -101,6 +101,7 @@ module.exports = {
                 '@typescript-eslint/no-type-alias': ['off'],
                 '@typescript-eslint/no-unnecessary-qualifier': ['error'],
                 '@typescript-eslint/no-unnecessary-type-assertion': ['error'],
+                '@typescript-eslint/no-unsafe-assignment': ['warn'],
                 '@typescript-eslint/no-unused-vars': [
                     'error',
                     {
