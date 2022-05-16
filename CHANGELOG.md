@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/ycycwx/config/compare/v1.3.0...v1.3.1) (2022-05-16)
+
+
+### Bug Fixes
+
+* @typescript/no-unsafe-assignment downgrade to 'warn' ([9d59c7f](https://github.com/ycycwx/config/commit/9d59c7f3c4f29eeb117cd3a31d0b4cccf05779e5))
+
 # [1.3.0](https://github.com/ycycwx/config/compare/v1.2.1...v1.3.0) (2022-04-24)
 
 
