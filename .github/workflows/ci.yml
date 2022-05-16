@@ -12,6 +12,8 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@ci
       - name: Install
         uses: ./.github/composite/install
       - name: Eslint
