@@ -4,7 +4,7 @@
     "description": "config guide",
     "main": "index.js",
     "scripts": {
-        "eslint-check": "eslint --max-warnings=0 .",
+        "lint": "eslint --max-warnings=0 .",
         "prepare": "husky install",
         "semantic-release": "semantic-release"
     },
