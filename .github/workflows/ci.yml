@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install
-        uses: ./.github/workflow/composite/install
+        uses: ./.github/composite/install
       - name: Eslint
         run: pnpm run eslint-check
