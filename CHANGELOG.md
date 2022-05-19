@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/ycycwx/config/compare/v1.3.1...v1.4.0) (2022-05-19)
+
+
+### Features
+
+* remove @babel/eslint-plugin ([7b01eee](https://github.com/ycycwx/config/commit/7b01eeebbc5da0e6554904901ebdcdda90ab1853))
+
 ## [1.3.1](https://github.com/ycycwx/config/compare/v1.3.0...v1.3.1) (2022-05-16)
 
 
