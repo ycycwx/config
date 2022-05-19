@@ -10,7 +10,6 @@ module.exports = {
         'plugin:eslint-comments/recommended',
         require.resolve('./import'),
         require.resolve('./base'),
-        require.resolve('./babel'),
     ],
     env: {
         [`es${ECMA_VERSION}`]: true,
