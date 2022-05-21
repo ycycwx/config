@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/ycycwx/config/compare/v1.4.0...v1.4.1) (2022-05-21)
+
+
+### Bug Fixes
+
+* peer deps eslint version ([dc13ff7](https://github.com/ycycwx/config/commit/dc13ff7c745138eddbe7df00ed434c049c923a6b))
+
 # [1.4.0](https://github.com/ycycwx/config/compare/v1.3.1...v1.4.0) (2022-05-19)
 
 
