@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/ycycwx/config/compare/v1.4.1...v1.4.2) (2022-05-24)
+
+
+### Bug Fixes
+
+* tsconfig add strictFunctionTypes ([c549d01](https://github.com/ycycwx/config/commit/c549d01dceafc66844e27495ccee6cdced62011b))
+
 ## [1.4.1](https://github.com/ycycwx/config/compare/v1.4.0...v1.4.1) (2022-05-21)
 
 
