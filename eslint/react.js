@@ -12,7 +12,7 @@ module.exports = {
                 allowArrowFunctions: false,
                 allowBind: false,
                 allowFunctions: false,
-                ignoreRefs: false,
+                ignoreRefs: true,
             },
         ],
         'react/jsx-uses-react': ['off'],
