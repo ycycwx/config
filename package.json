@@ -1,6 +1,6 @@
 {
     "name": "@yotsubacy/config",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "description": "config guide",
     "main": "index.js",
     "scripts": {

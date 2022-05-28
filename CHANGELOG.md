@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/ycycwx/config/compare/v1.4.2...v1.4.3) (2022-05-28)
+
+
+### Bug Fixes
+
+* react/jsx-no-bind remove ref warning [skip ci] ([aeb8944](https://github.com/ycycwx/config/commit/aeb89444fd5088b3d18f15415645b4804d6db96f))
+
 ## [1.4.2](https://github.com/ycycwx/config/compare/v1.4.1...v1.4.2) (2022-05-24)
 
 
