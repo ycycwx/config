@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/ycycwx/config/compare/v1.4.3...v1.5.0) (2022-05-31)
+
+
+### Bug Fixes
+
+* loose commitlint config ([fa72b13](https://github.com/ycycwx/config/commit/fa72b1314260c7886be7214e0b74a3900c683ed8))
+
+
+### Features
+
+* udpate typescript-eslint for support of ts4.7 ([#37](https://github.com/ycycwx/config/issues/37)) ([11071f4](https://github.com/ycycwx/config/commit/11071f4ea74611647c6bc9e7c5ec9610f258bdd9)), closes [#36](https://github.com/ycycwx/config/issues/36)
+
 ## [1.4.3](https://github.com/ycycwx/config/compare/v1.4.2...v1.4.3) (2022-05-28)
 
 
