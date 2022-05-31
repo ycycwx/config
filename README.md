@@ -1,6 +1,6 @@
 # Config
 
-Customize common config
+customize common config inspired by Vercel config.
 
 ## ESLint
 
