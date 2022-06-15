@@ -112,12 +112,7 @@ module.exports = {
         'comma-style': ['error', 'last'],
         complexity: ['warn', 10],
         'computed-property-spacing': ['error', 'never'],
-        'consistent-return': [
-            'error',
-            {
-                treatUndefinedAsUnspecified: true,
-            },
-        ],
+        'consistent-return': ['off'],
         'consistent-this': ['off'],
         'constructor-super': ['error'],
         curly: ['error', 'all'],
