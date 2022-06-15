@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/ycycwx/config/compare/v1.5.0...v1.5.1) (2022-06-15)
+
+
+### Bug Fixes
+
+* update deps && switch off consistent-return error ([e8c3871](https://github.com/ycycwx/config/commit/e8c38716fd5417435fbe086134b38f888ed6a8d3))
+
 # [1.5.0](https://github.com/ycycwx/config/compare/v1.4.3...v1.5.0) (2022-05-31)
 
 
