@@ -8,6 +8,7 @@ module.exports = {
                 'plugin:import/typescript',
             ],
             rules: {
+                'indent': ['off'],
                 '@typescript-eslint/indent': ['error', 4],
                 '@typescript-eslint/consistent-type-imports': [
                     'error',

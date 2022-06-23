@@ -3,7 +3,7 @@
 module.exports = {
     rules: {
         indent: [
-            'off',
+            'error',
             4,
             {
                 ignoredNodes: ['TemplateLiteral'],
