@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/ycycwx/config/compare/v1.6.0...v1.7.0) (2022-06-25)
+
+
+### Features
+
+* bump eslint-import-resolver-typescript to 3.x ([56dbfa4](https://github.com/ycycwx/config/commit/56dbfa468221e41ae83c1ba3fee5c3128de1b309))
+
 # [1.6.0](https://github.com/ycycwx/config/compare/v1.5.1...v1.6.0) (2022-06-23)
 
 
