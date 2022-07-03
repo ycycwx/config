@@ -1,7 +1,7 @@
 module.exports = {
     overrides: [
         {
-            files: ['*.ts?(x)'],
+            files: ['*.ts?(x)', '*.mts', '*.cts'],
             extends: [
                 'plugin:@typescript-eslint/recommended',
                 'plugin:@typescript-eslint/recommended-requiring-type-checking',
