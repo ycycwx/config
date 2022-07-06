@@ -8,7 +8,7 @@ module.exports = {
                 'plugin:import/typescript',
             ],
             rules: {
-                'indent': ['off'],
+                indent: ['off'],
                 '@typescript-eslint/indent': ['error', 4],
                 '@typescript-eslint/consistent-type-imports': [
                     'error',
@@ -137,6 +137,7 @@ module.exports = {
                         allowProtectedClassPropertyAccess: false,
                     },
                 ],
+                semi: ['off'],
                 '@typescript-eslint/semi': ['error'],
                 '@typescript-eslint/strict-boolean-expressions': ['off'],
                 '@typescript-eslint/triple-slash-reference': ['error'],

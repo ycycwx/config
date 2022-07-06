@@ -52,7 +52,7 @@ module.exports = {
         'no-extra-parens': ['off', 'functions'],
         'no-unused-vars': ['off'],
         'init-declarations': ['off'],
-        semi: ['off', 'always'],
+        semi: ['error', 'always'],
         quotes: ['off', 'single'],
         'no-undef': ['off'],
         'require-await': ['off'],
