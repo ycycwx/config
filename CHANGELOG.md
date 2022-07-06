@@ -1,3 +1,12 @@
+## [1.7.1](https://github.com/ycycwx/config/compare/v1.7.0...v1.7.1) (2022-07-06)
+
+
+### Bug Fixes
+
+* add cts mts file type support ([20034c4](https://github.com/ycycwx/config/commit/20034c44e46de555b3593cf607b38640ba965bc6))
+* semi config for js files ([be443d5](https://github.com/ycycwx/config/commit/be443d58be5fc851f28ad8059e36e5ad1f46cb80))
+* udpate eslint-import-resolver-typescript version ([4cc9364](https://github.com/ycycwx/config/commit/4cc9364f9970696b25c87f2674ac7452505831ab))
+
 # [1.7.0](https://github.com/ycycwx/config/compare/v1.6.0...v1.7.0) (2022-06-25)
 
 
