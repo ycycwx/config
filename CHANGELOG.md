@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/ycycwx/config/compare/v1.7.1...v1.8.0) (2022-11-28)
+
+
+### Features
+
+* support typescript@4.9 ([9b371d1](https://github.com/ycycwx/config/commit/9b371d1c215ac2087c8ac9c718016b304a49c94e))
+
 ## [1.7.1](https://github.com/ycycwx/config/compare/v1.7.0...v1.7.1) (2022-07-06)
 
 
