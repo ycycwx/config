@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/ycycwx/config/compare/v1.8.0...v1.8.1) (2023-01-22)
+
+
+### Bug Fixes
+
+* update deps ([a6440c6](https://github.com/ycycwx/config/commit/a6440c6145a094d8e7ad9d770ef85f68073f9b18))
+
 # [1.8.0](https://github.com/ycycwx/config/compare/v1.7.1...v1.8.0) (2022-11-28)
 
 
