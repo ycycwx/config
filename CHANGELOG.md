@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/ycycwx/config/compare/v1.8.1...v1.8.2) (2023-01-26)
+
+
+### Bug Fixes
+
+* upgrade typescript-eslint ([36b3b15](https://github.com/ycycwx/config/commit/36b3b15324d7de09e22ecf8bf020952374d77b37))
+
 ## [1.8.1](https://github.com/ycycwx/config/compare/v1.8.0...v1.8.1) (2023-01-22)
 
 
