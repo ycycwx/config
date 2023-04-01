@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/ycycwx/config/compare/v1.8.4...v1.9.0) (2023-04-01)
+
+
+### Features
+
+* upgrade typescript 5 & pnpm 8 ([7fdd5c1](https://github.com/ycycwx/config/commit/7fdd5c1aae96b902ca6920377d303e480be5fce6))
+
 ## [1.8.4](https://github.com/ycycwx/config/compare/v1.8.3...v1.8.4) (2023-02-18)
 
 
