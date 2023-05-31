@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/ycycwx/config/compare/v1.9.0...v1.10.0) (2023-05-31)
+
+
+### Features
+
+* support typescript@5 verbatimModuleSyntax flag ([955f541](https://github.com/ycycwx/config/commit/955f541888c4c329dcdcea818f89ad52db6878af))
+
 # [1.9.0](https://github.com/ycycwx/config/compare/v1.8.4...v1.9.0) (2023-04-01)
 
 
