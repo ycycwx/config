@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/ycycwx/config/compare/v1.10.1...v1.10.2) (2023-07-20)
+
+
+### Bug Fixes
+
+* remove @typescript-eslint/no-duplicate-imports with typescript-eslint 6.x compatible ([d1c4063](https://github.com/ycycwx/config/commit/d1c4063056a7469e597dced50d79343b3bd360bb))
+
 ## [1.10.1](https://github.com/ycycwx/config/compare/v1.10.0...v1.10.1) (2023-07-18)
 
 
