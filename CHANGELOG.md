@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/ycycwx/config/compare/v1.10.2...v1.10.3) (2023-10-04)
+
+
+### Bug Fixes
+
+* enable single quote in base config ([31cb17e](https://github.com/ycycwx/config/commit/31cb17e416ce87d4ecb1a410bc7b2e2a53a0b207))
+
 ## [1.10.2](https://github.com/ycycwx/config/compare/v1.10.1...v1.10.2) (2023-07-20)
 
 
