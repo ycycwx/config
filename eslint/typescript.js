@@ -143,6 +143,7 @@ module.exports = {
                 '@typescript-eslint/type-annotation-spacing': ['error'],
                 '@typescript-eslint/unbound-method': ['off'],
                 '@typescript-eslint/unified-signatures': ['warn'],
+                quotes: ['off'],
                 '@typescript-eslint/quotes': ['error', 'single'],
             },
         },

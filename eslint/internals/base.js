@@ -53,7 +53,7 @@ module.exports = {
         'no-unused-vars': ['off'],
         'init-declarations': ['off'],
         semi: ['error', 'always'],
-        quotes: ['off', 'single'],
+        quotes: ['error', 'single'],
         'no-undef': ['off'],
         'require-await': ['off'],
         'no-use-before-define': [
@@ -391,7 +391,7 @@ module.exports = {
             'error',
             'always',
             {
-                exceptions: ['-', '+', "'", '#'],
+                exceptions: ['-', '+', '\'', '#'],
                 block: {
                     balanced: true,
                 },
