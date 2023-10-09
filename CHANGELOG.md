@@ -1,3 +1,10 @@
+## [1.10.4](https://github.com/ycycwx/config/compare/v1.10.3...v1.10.4) (2023-10-09)
+
+
+### Bug Fixes
+
+* fix type top level import ([e100bcc](https://github.com/ycycwx/config/commit/e100bcc0f8b2b870b87646131e64e1f323136a81))
+
 ## [1.10.3](https://github.com/ycycwx/config/compare/v1.10.2...v1.10.3) (2023-10-04)
 
 
