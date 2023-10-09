@@ -16,7 +16,10 @@ module.exports = {
                         prefer: 'type-imports',
                     },
                 ],
-                '@typescript-eslint/method-signature-style': ['error', 'property'],
+                '@typescript-eslint/method-signature-style': [
+                    'error',
+                    'property',
+                ],
                 '@typescript-eslint/naming-convention': [
                     'error',
                     {
@@ -53,7 +56,10 @@ module.exports = {
                     },
                 ],
                 '@typescript-eslint/ban-types': ['error'],
-                '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+                '@typescript-eslint/consistent-type-definitions': [
+                    'error',
+                    'interface',
+                ],
                 '@typescript-eslint/explicit-function-return-type': ['off'],
                 '@typescript-eslint/explicit-member-accessibility': [
                     'error',
@@ -145,6 +151,11 @@ module.exports = {
                 '@typescript-eslint/unified-signatures': ['warn'],
                 quotes: ['off'],
                 '@typescript-eslint/quotes': ['error', 'single'],
+                // type import related
+                'import/consistent-type-specifier-style': [
+                    'error',
+                    'prefer-top-level',
+                ],
             },
         },
     ],
