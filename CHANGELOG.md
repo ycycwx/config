@@ -1,3 +1,10 @@
+## [1.10.12](https://github.com/ycycwx/config/compare/v1.10.11...v1.10.12) (2024-03-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rushstack/eslint-patch to v1.10.0 ([#351](https://github.com/ycycwx/config/issues/351)) ([4244768](https://github.com/ycycwx/config/commit/42447681b022a9230ea083007264923dff62e9cb))
+
 ## [1.10.11](https://github.com/ycycwx/config/compare/v1.10.10...v1.10.11) (2024-03-28)
 
 
