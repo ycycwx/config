@@ -1,3 +1,10 @@
+## [1.10.17](https://github.com/ycycwx/config/compare/v1.10.16...v1.10.17) (2024-04-24)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v7.7.1 ([#367](https://github.com/ycycwx/config/issues/367)) ([1246733](https://github.com/ycycwx/config/commit/124673318713811e31f20dbdea7994e04811f79d))
+
 ## [1.10.16](https://github.com/ycycwx/config/compare/v1.10.15...v1.10.16) (2024-04-16)
 
 
