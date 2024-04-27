@@ -1,3 +1,10 @@
+## [1.10.18](https://github.com/ycycwx/config/compare/v1.10.17...v1.10.18) (2024-04-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react-hooks to v4.6.1 ([#370](https://github.com/ycycwx/config/issues/370)) ([10bccac](https://github.com/ycycwx/config/commit/10bccac25f38044c348e18664177fd304eb84af9))
+
 ## [1.10.17](https://github.com/ycycwx/config/compare/v1.10.16...v1.10.17) (2024-04-24)
 
 
