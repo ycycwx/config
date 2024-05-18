@@ -1,3 +1,11 @@
+## [1.10.21](https://github.com/ycycwx/config/compare/v1.10.20...v1.10.21) (2024-05-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @rushstack/eslint-patch to v1.10.3 ([#380](https://github.com/ycycwx/config/issues/380)) ([a37ed0a](https://github.com/ycycwx/config/commit/a37ed0a544a068c77ad02e6a2c7609c2099a4b1a))
+* **deps:** update typescript-eslint monorepo to v7.9.0 ([#379](https://github.com/ycycwx/config/issues/379)) ([68a95d7](https://github.com/ycycwx/config/commit/68a95d76cd7abf5813d16f9466545a980b08b9be))
+
 ## [1.10.20](https://github.com/ycycwx/config/compare/v1.10.19...v1.10.20) (2024-05-04)
 
 
