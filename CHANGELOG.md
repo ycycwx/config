@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/ycycwx/config/compare/v1.10.23...v1.11.0) (2024-05-28)
+
+
+### Features
+
+* **eslint:** migrate prefer-ts-expect-error to ban-ts-comment ([d433593](https://github.com/ycycwx/config/commit/d43359318f84dd38234ef236dea9f6fef0e219a3))
+
 ## [1.10.23](https://github.com/ycycwx/config/compare/v1.10.22...v1.10.23) (2024-05-28)
 
 
