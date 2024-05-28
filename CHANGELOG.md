@@ -1,3 +1,10 @@
+## [1.10.23](https://github.com/ycycwx/config/compare/v1.10.22...v1.10.23) (2024-05-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.34.2 ([#387](https://github.com/ycycwx/config/issues/387)) ([a968a72](https://github.com/ycycwx/config/commit/a968a722667895508222c14853f40c793b073ba2))
+
 ## [1.10.22](https://github.com/ycycwx/config/compare/v1.10.21...v1.10.22) (2024-05-21)
 
 
