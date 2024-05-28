@@ -34,7 +34,6 @@ module.exports = {
                 '@typescript-eslint/no-redeclare': ['error'],
                 '@typescript-eslint/prefer-nullish-coalescing': ['warn'],
                 '@typescript-eslint/prefer-optional-chain': ['warn'],
-                '@typescript-eslint/prefer-ts-expect-error': ['error'],
                 '@typescript-eslint/restrict-plus-operands': ['off'],
                 '@typescript-eslint/adjacent-overload-signatures': ['error'],
                 '@typescript-eslint/array-type': [
@@ -45,16 +44,7 @@ module.exports = {
                     },
                 ],
                 '@typescript-eslint/await-thenable': ['warn'],
-                '@typescript-eslint/ban-ts-comment': [
-                    'warn',
-                    {
-                        'ts-expect-error': 'allow-with-description',
-                        'ts-ignore': 'allow-with-description',
-                        'ts-nocheck': 'allow-with-description',
-                        'ts-check': 'allow-with-description',
-                        minimumDescriptionLength: 3,
-                    },
-                ],
+                '@typescript-eslint/ban-ts-comment': ['error'],
                 '@typescript-eslint/ban-types': ['error'],
                 '@typescript-eslint/consistent-type-definitions': [
                     'error',
