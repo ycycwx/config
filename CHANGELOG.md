@@ -1,3 +1,10 @@
+## [1.11.4](https://github.com/ycycwx/config/compare/v1.11.3...v1.11.4) (2024-06-27)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v7.14.1 ([#395](https://github.com/ycycwx/config/issues/395)) ([7920c3d](https://github.com/ycycwx/config/commit/7920c3d8b153dbfaf1cf2274db0c5bef4669b008))
+
 ## [1.11.3](https://github.com/ycycwx/config/compare/v1.11.2...v1.11.3) (2024-06-27)
 
 
