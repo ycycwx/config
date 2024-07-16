@@ -1,3 +1,11 @@
+## [1.11.7](https://github.com/ycycwx/config/compare/v1.11.6...v1.11.7) (2024-07-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.34.4 ([#404](https://github.com/ycycwx/config/issues/404)) ([6c2584b](https://github.com/ycycwx/config/commit/6c2584b951c585ec37e4f2516818ad70f0d64f71))
+* **deps:** update typescript-eslint monorepo to v7.16.1 ([#405](https://github.com/ycycwx/config/issues/405)) ([733732d](https://github.com/ycycwx/config/commit/733732d19cfca7270c07cf4d995970155af4a793))
+
 ## [1.11.6](https://github.com/ycycwx/config/compare/v1.11.5...v1.11.6) (2024-07-09)
 
 
