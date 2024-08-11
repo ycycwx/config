@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/ycycwx/config/compare/v1.12.0...v1.13.0) (2024-08-11)
+
+
+### Features
+
+* turn off react/jsx-no-bind ([1ecee74](https://github.com/ycycwx/config/commit/1ecee749c6e7fb85eb174f942dce704e1f6fd1d6))
+
 # [1.12.0](https://github.com/ycycwx/config/compare/v1.11.12...v1.12.0) (2024-08-11)
 
 
