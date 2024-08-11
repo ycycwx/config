@@ -1,3 +1,15 @@
+# [1.12.0](https://github.com/ycycwx/config/compare/v1.11.12...v1.12.0) (2024-08-11)
+
+
+### Features
+
+* revert back tseslint and bump version ([eb11aff](https://github.com/ycycwx/config/commit/eb11aff6678fdb849e7c3157221b34c7eea9425a))
+
+
+### Reverts
+
+* revert back typescript-eslint@7 ([ef224d2](https://github.com/ycycwx/config/commit/ef224d225dde3772ecf2ad4a9a940b59e653ac92))
+
 ## [1.11.12](https://github.com/ycycwx/config/compare/v1.11.11...v1.11.12) (2024-08-03)
 
 
