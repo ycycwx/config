@@ -5,16 +5,7 @@ module.exports = {
         'plugin:import/react',
     ],
     rules: {
-        'react/jsx-no-bind': [
-            'error',
-            {
-                ignoreDOMComponents: true,
-                allowArrowFunctions: false,
-                allowBind: false,
-                allowFunctions: false,
-                ignoreRefs: true,
-            },
-        ],
+        'react/jsx-no-bind': ['off'],
         'react/jsx-uses-react': ['off'],
         'react/react-in-jsx-scope': ['off'],
         'react/default-props-match-prop-types': ['off'],
