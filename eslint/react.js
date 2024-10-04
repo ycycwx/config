@@ -15,16 +15,12 @@ module.exports = {
         'react/forbid-foreign-prop-types': ['warn'],
         'react/forbid-prop-types': ['off'],
         'react/jsx-boolean-value': ['error', 'never'],
-        'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
-        'react/jsx-curly-spacing': ['error', 'never'],
-        'react/jsx-equals-spacing': ['error', 'never'],
         'react/jsx-filename-extension': [
             'error',
             {
                 extensions: ['.js', '.jsx', '.es', '.tsx'],
             },
         ],
-        'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
         'react/jsx-handler-names': [
             'off',
             {
@@ -32,15 +28,7 @@ module.exports = {
                 eventHandlerPropPrefix: 'on',
             },
         ],
-        'react/jsx-indent-props': ['error', 4],
-        'react/jsx-indent': ['error', 4],
         'react/jsx-key': ['error'],
-        'react/jsx-max-props-per-line': [
-            'error',
-            {
-                when: 'multiline',
-            },
-        ],
         'react/jsx-no-comment-textnodes': ['warn'],
         'react/jsx-no-duplicate-props': [
             'error',
@@ -51,34 +39,7 @@ module.exports = {
         'react/jsx-no-literals': ['off'],
         'react/jsx-no-target-blank': ['error'],
         'react/jsx-no-undef': ['error'],
-        'react/jsx-pascal-case': [
-            'error',
-            {
-                allowAllCaps: true,
-            },
-        ],
-        'react/jsx-sort-props': ['off'],
-        'react/jsx-tag-spacing': [
-            'error',
-            {
-                closingSlash: 'never',
-                beforeSelfClosing: 'always',
-                beforeClosing: 'never',
-                afterOpening: 'never',
-            },
-        ],
         'react/jsx-uses-vars': ['error'],
-        'react/jsx-wrap-multilines': [
-            'error',
-            {
-                declaration: 'parens-new-line',
-                assignment: 'parens-new-line',
-                return: 'parens-new-line',
-                arrow: 'parens-new-line',
-            },
-        ],
-        'react/jsx-closing-tag-location': ['error'],
-        'react/jsx-props-no-multi-spaces': ['error'],
         'react/no-array-index-key': ['error'],
         'react/no-children-prop': ['error'],
         'react/no-danger-with-children': ['error'],

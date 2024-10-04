@@ -47,5 +47,10 @@ module.exports = {
         'import/max-dependencies': ['off'],
         'import/no-unassigned-import': ['off'],
         'import/no-named-default': ['error'],
+        // type import related
+        'import/consistent-type-specifier-style': [
+            'error',
+            'prefer-top-level',
+        ],
     },
 };

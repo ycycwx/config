@@ -8,18 +8,13 @@ module.exports = {
                 'plugin:import/typescript',
             ],
             rules: {
-                indent: ['off'],
-                '@typescript-eslint/indent': ['error', 4],
                 '@typescript-eslint/consistent-type-imports': [
                     'error',
                     {
                         prefer: 'type-imports',
                     },
                 ],
-                '@typescript-eslint/method-signature-style': [
-                    'error',
-                    'property',
-                ],
+                '@typescript-eslint/method-signature-style': ['error', 'property'],
                 '@typescript-eslint/naming-convention': [
                     'error',
                     {
@@ -35,6 +30,7 @@ module.exports = {
                 '@typescript-eslint/prefer-nullish-coalescing': ['warn'],
                 '@typescript-eslint/prefer-optional-chain': ['warn'],
                 '@typescript-eslint/restrict-plus-operands': ['off'],
+                '@typescript-eslint/restrict-template-expressions': ['off'],
                 '@typescript-eslint/adjacent-overload-signatures': ['error'],
                 '@typescript-eslint/array-type': [
                     'error',
@@ -45,11 +41,10 @@ module.exports = {
                 ],
                 '@typescript-eslint/await-thenable': ['warn'],
                 '@typescript-eslint/ban-ts-comment': ['error'],
-                '@typescript-eslint/ban-types': ['error'],
-                '@typescript-eslint/consistent-type-definitions': [
-                    'error',
-                    'interface',
-                ],
+                '@typescript-eslint/no-empty-object-type': ['error'],
+                '@typescript-eslint/no-unsafe-function-type': ['error'],
+                '@typescript-eslint/no-wrapper-object-types': ['error'],
+                '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
                 '@typescript-eslint/explicit-function-return-type': ['off'],
                 '@typescript-eslint/explicit-member-accessibility': [
                     'error',
@@ -57,26 +52,11 @@ module.exports = {
                         accessibility: 'no-public',
                     },
                 ],
-                '@typescript-eslint/func-call-spacing': ['error'],
-                '@typescript-eslint/member-delimiter-style': [
-                    'error',
-                    {
-                        multiline: {
-                            delimiter: 'semi',
-                            requireLast: true,
-                        },
-                        singleline: {
-                            delimiter: 'comma',
-                            requireLast: false,
-                        },
-                    },
-                ],
                 '@typescript-eslint/member-ordering': ['warn'],
                 '@typescript-eslint/no-array-constructor': ['error'],
                 '@typescript-eslint/no-empty-function': ['off'],
                 '@typescript-eslint/no-empty-interface': ['warn'],
                 '@typescript-eslint/no-explicit-any': ['off'],
-                '@typescript-eslint/no-extra-parens': ['off'],
                 '@typescript-eslint/no-extraneous-class': ['error'],
                 '@typescript-eslint/no-floating-promises': [
                     'error',
@@ -132,20 +112,10 @@ module.exports = {
                         allowProtectedClassPropertyAccess: false,
                     },
                 ],
-                semi: ['off'],
-                '@typescript-eslint/semi': ['error'],
                 '@typescript-eslint/strict-boolean-expressions': ['off'],
                 '@typescript-eslint/triple-slash-reference': ['error'],
-                '@typescript-eslint/type-annotation-spacing': ['error'],
                 '@typescript-eslint/unbound-method': ['off'],
                 '@typescript-eslint/unified-signatures': ['warn'],
-                quotes: ['off'],
-                '@typescript-eslint/quotes': ['error', 'single'],
-                // type import related
-                'import/consistent-type-specifier-style': [
-                    'error',
-                    'prefer-top-level',
-                ],
             },
         },
     ],
