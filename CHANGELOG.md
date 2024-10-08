@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/ycycwx/config/compare/v1.13.2...v1.14.0) (2024-10-08)
+
+
+### Features
+
+* support flat config ([#446](https://github.com/ycycwx/config/issues/446)) ([0dd2783](https://github.com/ycycwx/config/commit/0dd2783a07df6faeda3b98d85e310ed6fca00e5a))
+
 ## [1.13.2](https://github.com/ycycwx/config/compare/v1.13.1...v1.13.2) (2024-09-04)
 
 
