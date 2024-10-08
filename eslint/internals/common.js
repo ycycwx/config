@@ -7,9 +7,10 @@ module.exports = {
     extends: [
         'eslint:recommended',
         'plugin:import/recommended',
-        'plugin:eslint-comments/recommended',
+        'plugin:@eslint-community/eslint-comments/recommended',
         require.resolve('./import'),
         require.resolve('./base'),
+        require.resolve('./stylistic'),
     ],
     env: {
         [`es${ECMA_VERSION}`]: true,
