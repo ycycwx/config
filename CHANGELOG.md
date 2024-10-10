@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/ycycwx/config/compare/v1.14.0...v1.14.1) (2024-10-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to v15.11.0 ([#448](https://github.com/ycycwx/config/issues/448)) ([b01b99c](https://github.com/ycycwx/config/commit/b01b99cd016ecd9921e8cb627f8e087648d018ca))
+
 # [1.14.0](https://github.com/ycycwx/config/compare/v1.13.2...v1.14.0) (2024-10-08)
 
 
