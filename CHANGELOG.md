@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/ycycwx/config/compare/v1.14.3...v1.15.0) (2024-10-22)
+
+
+### Features
+
+* upgrade eslint-config-react-hooks 5.0.0 ([e9acd9d](https://github.com/ycycwx/config/commit/e9acd9d3424fedf7fb117b3481430976869cfe42))
+
 ## [1.14.3](https://github.com/ycycwx/config/compare/v1.14.2...v1.14.3) (2024-10-18)
 
 
