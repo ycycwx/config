@@ -60,7 +60,7 @@
         "typescript": "5.7.2"
     },
     "peerDependencies": {
-        "eslint": "^8.16.0"
+        "eslint": "^8.57.1"
     },
     "packageManager": "pnpm@9.15.1",
     "publishConfig": {
