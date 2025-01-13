@@ -1,3 +1,11 @@
+## [1.15.8](https://github.com/ycycwx/config/compare/v1.15.7...v1.15.8) (2025-01-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @stylistic/eslint-plugin to v2.13.0 ([#497](https://github.com/ycycwx/config/issues/497)) ([22fde68](https://github.com/ycycwx/config/commit/22fde6848b54f62a19a3e33267f367bb215afea9))
+* **deps:** update dependency eslint-plugin-react to v7.37.4 ([#496](https://github.com/ycycwx/config/issues/496)) ([513d187](https://github.com/ycycwx/config/commit/513d1874be3a9645943a70dda411b7f3b49764f7))
+
 ## [1.15.7](https://github.com/ycycwx/config/compare/v1.15.6...v1.15.7) (2024-12-31)
 
 
