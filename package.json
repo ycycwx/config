@@ -52,14 +52,14 @@
         "@commitlint/config-conventional": "19.6.0",
         "@semantic-release/changelog": "6.0.3",
         "@semantic-release/git": "10.0.1",
-        "eslint": "8.57.1",
+        "eslint": "9.18.0",
         "husky": "9.1.7",
         "lint-staged": "15.4.1",
         "semantic-release": "24.2.1",
         "typescript": "5.7.3"
     },
     "peerDependencies": {
-        "eslint": "^8.57.1"
+        "eslint": "^8.57.1 || ^9.0.0"
     },
     "packageManager": "pnpm@9.15.3",
     "publishConfig": {
