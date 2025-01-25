@@ -1,3 +1,11 @@
+## [1.15.10](https://github.com/ycycwx/config/compare/v1.15.9...v1.15.10) (2025-01-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @eslint/js to v9.19.0 ([#501](https://github.com/ycycwx/config/issues/501)) ([87afa2a](https://github.com/ycycwx/config/commit/87afa2aac953d8baa0199045a8997017b1498729))
+* **deps:** update dependency @stylistic/eslint-plugin to v3 ([#502](https://github.com/ycycwx/config/issues/502)) ([e0ba08b](https://github.com/ycycwx/config/commit/e0ba08bdd57b40d8364c7a7bb11066fc90138c2a))
+
 ## [1.15.9](https://github.com/ycycwx/config/compare/v1.15.8...v1.15.9) (2025-01-24)
 
 
