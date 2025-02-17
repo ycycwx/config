@@ -1,3 +1,10 @@
+## [1.15.13](https://github.com/ycycwx/config/compare/v1.15.12...v1.15.13) (2025-02-17)
+
+
+### Bug Fixes
+
+* add missing dependency @rushstack/eslint-patch ([60df996](https://github.com/ycycwx/config/commit/60df996fadd950730af1fc7a1eac865639ee1088))
+
 ## [1.15.12](https://github.com/ycycwx/config/compare/v1.15.11...v1.15.12) (2025-02-15)
 
 
