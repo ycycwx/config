@@ -1,3 +1,10 @@
+## [1.15.14](https://github.com/ycycwx/config/compare/v1.15.13...v1.15.14) (2025-02-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-import-resolver-typescript to v3.8.3 ([#520](https://github.com/ycycwx/config/issues/520)) ([e23d9a8](https://github.com/ycycwx/config/commit/e23d9a85c86741fd9f763ca46d2ab5c49b124e8f))
+
 ## [1.15.13](https://github.com/ycycwx/config/compare/v1.15.12...v1.15.13) (2025-02-17)
 
 
