@@ -1,3 +1,11 @@
+## [1.15.15](https://github.com/ycycwx/config/compare/v1.15.14...v1.15.15) (2025-02-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @eslint/js to v9.21.0 ([#522](https://github.com/ycycwx/config/issues/522)) ([49c754e](https://github.com/ycycwx/config/commit/49c754e42bf93beca5736eb5073730a857f98529))
+* **deps:** update dependency globals to v16 ([#521](https://github.com/ycycwx/config/issues/521)) ([f7344e3](https://github.com/ycycwx/config/commit/f7344e36552116c48facd4076006bd1a6b9df5a2))
+
 ## [1.15.14](https://github.com/ycycwx/config/compare/v1.15.13...v1.15.14) (2025-02-20)
 
 
