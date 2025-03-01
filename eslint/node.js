@@ -1,6 +1,20 @@
-module.exports = {
-    extends: require.resolve('./internals/common'),
-    env: {
-        node: true,
+import globals from 'globals';
+
+/**
+ * @returns {import('typescript-eslint').ConfigArray}
+ */
+export default [
+    {
+        files: ['**/*.{js,mjs,mts,cjs,cts}'],
+        languageOptions: {
+            globals: globals.node,
+        },
+        settings: {
+            'import/resolver': {
+                node: {
+                    extensions: ['.js', '.jsx', '.ts', '.tsx'],
+                },
+            },
+        },
     },
-};
+];
