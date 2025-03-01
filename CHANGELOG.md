@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/ycycwx/config/compare/v1.16.0...v1.16.1) (2025-03-01)
+
+
+### Bug Fixes
+
+* fix flatConfig.build regression issue ([686df44](https://github.com/ycycwx/config/commit/686df44b5ec16aa07e603fffbe3e423c49acd3b5))
+
 # [1.16.0](https://github.com/ycycwx/config/compare/v1.15.16...v1.16.0) (2025-03-01)
 
 
