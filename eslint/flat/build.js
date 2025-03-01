@@ -21,14 +21,8 @@ const presetsMap = {
  * @deprecated use `flatConfigs.config` instead
  *
  * @param {Array<Preset> | Preset} presets
- * @param {{ tsconfigRootDir: string }} [config]
  */
-module.exports = (presets, config) => [
+module.exports = presets => [
     ...base,
-    ...(Array.isArray(presets) ? presets : [presets]).flatMap(preset => {
-        if (preset === 'typescript') {
-            return presetsMap[preset]({tsconfigRootDir: config?.tsconfigRootDir});
-        }
-        return presetsMap[preset];
-    }),
+    ...(Array.isArray(presets) ? presets : [presets]).flatMap(preset => presetsMap[preset]),
 ];
