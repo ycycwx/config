@@ -4,6 +4,9 @@ const reactHooks = require('eslint-plugin-react-hooks');
 const importPlugin = require('eslint-plugin-import');
 const reactRules = require('../../react').rules;
 
+/**
+ * @returns {import('typescript-eslint').ConfigArray}
+ */
 module.exports = [
     {
         files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
@@ -19,7 +22,7 @@ module.exports = [
             },
         },
         plugins: {
-            ...reactPlugin.configs.flat.recommended.plugins,
+            react: reactPlugin,
             'react-hooks': reactHooks,
         },
         rules: {
