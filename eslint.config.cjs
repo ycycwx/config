@@ -1,3 +1,6 @@
 const {flatConfigs} = require('./eslint');
 
-module.exports = flatConfigs.build('node');
+/**
+ * @type {import('typescript-eslint').ConfigArray}
+ */
+module.exports = flatConfigs.config('node');

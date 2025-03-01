@@ -3,11 +3,10 @@ const tseslint = require('typescript-eslint');
 const tsRules = require('../../typescript').overrides.at(0).rules;
 
 /**
- * @param {{ tsconfigRootDir: string }} config
+ * @returns {import('typescript-eslint').ConfigArray}
  */
-module.exports = config => [
+module.exports = [
     ...tseslint.configs.strictTypeChecked,
-    ...tseslint.configs.recommendedTypeChecked,
     ...tseslint.configs.stylisticTypeChecked,
     {
         files: ['**/*.{ts,tsx,mtsx}'],
@@ -15,7 +14,6 @@ module.exports = config => [
             parser: tseslint.parser,
             parserOptions: {
                 projectService: true,
-                tsconfigRootDir: config.tsconfigRootDir,
             },
         },
         settings: {
