@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/ycycwx/config/compare/v1.15.16...v1.16.0) (2025-03-01)
+
+
+### Features
+
+* replace flatConfigs.build with flatConfigs.config ([#527](https://github.com/ycycwx/config/issues/527)) ([e32ebca](https://github.com/ycycwx/config/commit/e32ebca15240f435d8a49f7be683ea1ff492fd8f))
+
 ## [1.15.16](https://github.com/ycycwx/config/compare/v1.15.15...v1.15.16) (2025-02-25)
 
 

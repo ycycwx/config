@@ -1,7 +1,7 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
     "name": "@yotsubacy/config",
-    "version": "1.15.16",
+    "version": "1.16.0",
     "description": "config guide",
     "main": "index.js",
     "scripts": {
