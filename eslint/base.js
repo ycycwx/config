@@ -321,7 +321,7 @@ export default [
             'import/no-duplicates': ['error'],
             'import/no-namespace': ['off'],
             // FIXME: Need to have a best practice for browser and node side
-            // 'import/extensions': ['error', 'ignorePackages'],
+            'import/extensions': ['off'],
             'import/newline-after-import': ['error'],
             'import/prefer-default-export': ['off'],
             'import/max-dependencies': ['off'],
