@@ -3,7 +3,7 @@
     "name": "@yotsubacy/config",
     "version": "1.16.1",
     "description": "config guide",
-    "main": "index.js",
+    "type": "module",
     "scripts": {
         "lint": "eslint --max-warnings=0 .",
         "prepare": "husky",
@@ -15,10 +15,6 @@
     ],
     "exports": {
         "./eslint": "./eslint/index.js",
-        "./eslint/browser": "./eslint/browser.js",
-        "./eslint/node": "./eslint/node.js",
-        "./eslint/react": "./eslint/react.js",
-        "./eslint/typescript": "./eslint/typescript.js",
         "./package.json": "./package.json",
         "./typescript.json": "./typescript.json"
     },
@@ -34,11 +30,9 @@
     },
     "homepage": "https://github.com/ycycwx/config#readme",
     "dependencies": {
-        "@babel/eslint-parser": "^7.26.8",
         "@eslint-community/eslint-plugin-eslint-comments": "^4.4.1",
         "@eslint/js": "^9.20.0",
-        "@rushstack/eslint-patch": "^1.10.5",
-        "@stylistic/eslint-plugin": "^3.1.0",
+        "@stylistic/eslint-plugin": "^4.1.0",
         "eslint-import-resolver-alias": "^1.1.2",
         "eslint-import-resolver-typescript": "^3.8.2",
         "eslint-plugin-import": "^2.31.0",
@@ -48,19 +42,18 @@
         "typescript-eslint": "^8.24.1"
     },
     "devDependencies": {
-        "@babel/core": "7.26.9",
         "@commitlint/cli": "19.7.1",
         "@commitlint/config-conventional": "19.7.1",
         "@semantic-release/changelog": "6.0.3",
         "@semantic-release/git": "10.0.1",
-        "eslint": "8.57.1",
+        "eslint": "9.21.0",
         "husky": "9.1.7",
         "lint-staged": "15.4.3",
         "semantic-release": "24.2.3",
         "typescript": "5.7.3"
     },
     "peerDependencies": {
-        "eslint": "^8.57.1"
+        "eslint": "^9.21.0"
     },
     "packageManager": "pnpm@10.5.2",
     "publishConfig": {
