@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/ycycwx/config/compare/v1.16.1...v2.0.0) (2025-03-02)
+
+
+### Features
+
+* support esm usage of eslint flat config and drop commonjs ([#528](https://github.com/ycycwx/config/issues/528)) ([c699c7b](https://github.com/ycycwx/config/commit/c699c7b9309d6f680d46eaca13c68aa283083ba6))
+
+
+### BREAKING CHANGES
+
+* - Drop eslint 8.
+- Support eslint 9 flat config.
+- Adjust some import rules.
+- Simplify the code structure.
+- Switch to esm only package.
+- Update stylistic plugin which only supportting esm.
+
 ## [1.16.1](https://github.com/ycycwx/config/compare/v1.16.0...v1.16.1) (2025-03-01)
 
 
