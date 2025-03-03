@@ -1,6 +1,6 @@
 # Config
 
-customize common config inspired by Vercel config.
+Customize common config for eslint and typescript.
 
 ## ESLint
 
@@ -9,7 +9,6 @@ customize common config inspired by Vercel config.
 ```js
 // filename: eslint.config.js
 import path from 'node:path';
-import {fileURLToPath} from 'node:url';
 import config from '@yotsubacy/config/eslint';
 
 export default config('typescript', {
@@ -36,6 +35,7 @@ export default config('typescript', {
 ```js
 // filename: eslint.config.js
 import config from '@yotsubacy/config/eslint';
+
 export default config('node');
 ```
 
@@ -44,7 +44,6 @@ export default config('node');
 ```js
 // filename: eslint.config.js
 import path from 'node:path';
-import {fileURLToPath} from 'node:url';
 import config from '@yotsubacy/config/eslint';
 
 export default config(['browser', 'react', 'typescript'], {
