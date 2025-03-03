@@ -7,37 +7,63 @@ customize common config inspired by Vercel config.
 ### TypeScript
 
 ```js
-const {resolve} = require('node:path');
+// filename: eslint.config.js
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import config from '@yotsubacy/config/eslint';
 
-const project = resolve(__dirname, 'tsconfig.json');
-
-modules.exports = {
-    root: true,
-    extends: [
-        require.resolve('@yotsubacy/config/eslint/browser'),
-        require.resolve('@yotsubacy/config/eslint/react'),
-        require.resolve('@yotsubacy/config/eslint/typescript'),
-    ],
-    // use typescript config
-    parserOptions: {
-        project,
+export default config('typescript', {
+    languageOptions: {
+        parserOptions: {
+            projectService: {
+                allowDefaultProject: ['*.{js,mjs,cjs}'],
+            },
+            tsconfigRootDir: import.meta.dirname,
+        },
     },
     settings: {
         'import/resolver': {
             typescript: {
-                project,
+                project: import.meta.dirname,
             },
         },
     },
-};
+});
 ```
 
 ### Node
 
 ```js
-modules.exports = {
-    extends: [require.resolve('@yotsubacy/config/eslint/node')],
-};
+// filename: eslint.config.js
+import config from '@yotsubacy/config/eslint';
+export default config('node');
+```
+
+### Multi presets support
+
+```js
+// filename: eslint.config.js
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import config from '@yotsubacy/config/eslint';
+
+export default config(['browser', 'react', 'typescript'], {
+    languageOptions: {
+        parserOptions: {
+            projectService: {
+                allowDefaultProject: ['*.{js,mjs,cjs}'],
+            },
+            tsconfigRootDir: import.meta.dirname,
+        },
+    },
+    settings: {
+        'import/resolver': {
+            typescript: {
+                project: import.meta.dirname,
+            },
+        },
+    },
+});
 ```
 
 ## TypeScript

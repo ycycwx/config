@@ -1,3 +1,3 @@
 import config from './eslint/index.js';
 
-export default config(['node']);
+export default config('node');
