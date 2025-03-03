@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/ycycwx/config/compare/v2.0.0...v2.0.1) (2025-03-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @stylistic/eslint-plugin to v4.2.0 ([#529](https://github.com/ycycwx/config/issues/529)) ([724201e](https://github.com/ycycwx/config/commit/724201e3fbb035deb820198ae82ab2c5f53d3753))
+
 # [2.0.0](https://github.com/ycycwx/config/compare/v1.16.1...v2.0.0) (2025-03-02)
 
 
