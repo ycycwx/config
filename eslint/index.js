@@ -12,8 +12,8 @@ import typescript from './typescript.js';
  * Create eslint flat config
  *
  * @param {Array<Preset> | Preset | undefined} presets
- * @param {import('typescript-eslint').ConfigArray} extendedFlatConfigs
- * @returns {import('typescript-eslint').ConfigArray}
+ * @param {import('eslint').Linter.Config} extendedFlatConfigs
+ * @returns {import('eslint').Linter.Config}
  */
 export default (presets, ...extendedFlatConfigs) => {
     /**

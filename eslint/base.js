@@ -6,7 +6,7 @@ import stylistic from '@stylistic/eslint-plugin';
 import comments from '@eslint-community/eslint-plugin-eslint-comments';
 
 /**
- * @returns {import('typescript-eslint').ConfigArray}
+ * @returns {import('eslint').Linter.Config}
  */
 export default [
     {

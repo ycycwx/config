@@ -4,7 +4,7 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import importPlugin from 'eslint-plugin-import';
 
 /**
- * @returns {import('typescript-eslint').ConfigArray}
+ * @returns {import('eslint').Linter.Config}
  */
 export default [
     {

@@ -2,7 +2,7 @@ import importPlugin from 'eslint-plugin-import';
 import tseslint from 'typescript-eslint';
 
 /**
- * @returns {import('typescript-eslint').ConfigArray}
+ * @returns {import('eslint').Linter.Config}
  */
 export default tseslint.config(
     tseslint.configs.strictTypeChecked,

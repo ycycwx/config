@@ -1,7 +1,7 @@
 import globals from 'globals';
 
 /**
- * @returns {import('typescript-eslint').ConfigArray}
+ * @returns {import('eslint').Linter.Config}
  */
 export default [
     {
