@@ -9,10 +9,9 @@
         "clean": "rm -rf eslint",
         "watch": "tsc -w",
         "lint": "eslint --max-warnings=0 .",
-        "postinstall": "pnpm run build",
         "prebuild": "pnpm run clean",
-        "prepublish": "npm run build",
-        "prepare": "husky",
+        "prepublishOnly": "pnpm run build",
+        "prepare": "husky && pnpm run build",
         "semantic-release": "semantic-release"
     },
     "files": [
