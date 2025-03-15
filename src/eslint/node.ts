@@ -1,9 +1,7 @@
+import {defineConfig} from 'eslint/config';
 import globals from 'globals';
 
-/**
- * @returns {import('eslint').Linter.Config}
- */
-export default [
+export default defineConfig([
     {
         files: ['**/*.{js,mjs,mts,cjs,cts}'],
         languageOptions: {
@@ -17,4 +15,4 @@ export default [
             },
         },
     },
-];
+]);

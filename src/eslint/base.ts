@@ -4,11 +4,9 @@ import importPlugin from 'eslint-plugin-import';
 import js from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import comments from '@eslint-community/eslint-plugin-eslint-comments';
+import {defineConfig} from 'eslint/config';
 
-/**
- * @returns {import('eslint').Linter.Config}
- */
-export default [
+export default defineConfig([
     {
         plugins: {
             import: importPlugin,
@@ -540,6 +538,6 @@ export default [
             reportUnusedDisableDirectives: true,
         },
     },
-];
+]);
 
 /* eslint-enable max-lines */

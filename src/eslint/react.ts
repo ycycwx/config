@@ -2,11 +2,9 @@ import globals from 'globals';
 import reactPlugin from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
 import importPlugin from 'eslint-plugin-import';
+import {defineConfig} from 'eslint/config';
 
-/**
- * @returns {import('eslint').Linter.Config}
- */
-export default [
+export default defineConfig([
     {
         files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
         plugins: {
@@ -18,7 +16,7 @@ export default [
             react: {version: 'detect'},
         },
         languageOptions: {
-            ...reactPlugin.configs.flat.recommended.languageOptions,
+            ...reactPlugin.configs.flat.recommended?.languageOptions,
             ...importPlugin.flatConfigs.react.languageOptions,
             globals: {
                 ...globals.browser,
@@ -140,4 +138,4 @@ export default [
             ],
         },
     },
-];
+]);

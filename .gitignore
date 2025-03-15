@@ -6,6 +6,7 @@ node_modules
 # production
 dist
 output
+eslint/
 
 # test
 coverage

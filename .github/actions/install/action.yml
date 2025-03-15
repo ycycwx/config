@@ -10,7 +10,7 @@ runs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: 20
+        node-version: 22
     - name: Cache pnpm modules
       uses: actions/cache@v4
       with:
@@ -23,4 +23,7 @@ runs:
       with:
         run_install: |
           - recursive: true
-            args: [--frozen-lockfile, --strict-peer-dependencies]
+            args: [--frozen-lockfile, --strict-peer-dependencies, --ignore-scripts]
+    - name: Build
+      shell: bash
+      run: pnpm run build

@@ -1,9 +1,8 @@
+/* eslint-disable import/no-named-as-default-member */
+
 import importPlugin from 'eslint-plugin-import';
 import tseslint from 'typescript-eslint';
 
-/**
- * @returns {import('eslint').Linter.Config}
- */
 export default tseslint.config(
     tseslint.configs.strictTypeChecked,
     tseslint.configs.stylisticTypeChecked,
@@ -139,3 +138,5 @@ export default tseslint.config(
         extends: [tseslint.configs.disableTypeChecked],
     }
 );
+
+/* eslint-enable import/no-named-as-default-member */

@@ -1,0 +1,12 @@
+{
+    "extends": "./typescript.json",
+    "include": ["./src/**/*", "./types/**/*"],
+    "compilerOptions": {
+        "target": "ESNext",
+        "lib": ["ESNext"],
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "outDir": "./eslint",
+        "declaration": true
+    }
+}
