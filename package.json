@@ -5,7 +5,13 @@
     "description": "config guide",
     "type": "module",
     "scripts": {
+        "build": "tsc",
+        "clean": "rm -rf eslint",
+        "watch": "tsc -w",
         "lint": "eslint --max-warnings=0 .",
+        "postinstall": "pnpm run build",
+        "prebuild": "pnpm run clean",
+        "prepublish": "npm run build",
         "prepare": "husky",
         "semantic-release": "semantic-release"
     },
@@ -53,7 +59,7 @@
         "typescript": "5.8.2"
     },
     "peerDependencies": {
-        "eslint": "^9.21.0"
+        "eslint": "^9.22.0"
     },
     "packageManager": "pnpm@10.6.3",
     "publishConfig": {
