@@ -24,3 +24,6 @@ runs:
         run_install: |
           - recursive: true
             args: [--frozen-lockfile, --strict-peer-dependencies, --ignore-scripts]
+    - name: Build
+      shell: bash
+      run: pnpm run build
