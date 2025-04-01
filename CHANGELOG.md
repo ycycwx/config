@@ -1,3 +1,10 @@
+## [2.0.10](https://github.com/ycycwx/config/compare/v2.0.9...v2.0.10) (2025-04-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript-eslint to v8.29.0 ([#543](https://github.com/ycycwx/config/issues/543)) ([6d1096c](https://github.com/ycycwx/config/commit/6d1096c52bf1976cb33956d64443d841b09c90ba))
+
 ## [2.0.9](https://github.com/ycycwx/config/compare/v2.0.8...v2.0.9) (2025-03-29)
 
 
