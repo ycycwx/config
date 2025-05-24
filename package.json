@@ -37,7 +37,7 @@
     "dependencies": {
         "@eslint-community/eslint-plugin-eslint-comments": "^4.5.0",
         "@eslint/js": "^9.27.0",
-        "@stylistic/eslint-plugin": "^4.1.0",
+        "@stylistic/eslint-plugin": "^4.4.0",
         "eslint-import-resolver-alias": "^1.1.2",
         "eslint-import-resolver-typescript": "^4.3.5",
         "eslint-plugin-import": "^2.31.0",
@@ -54,7 +54,7 @@
         "eslint": "9.27.0",
         "husky": "9.1.7",
         "lint-staged": "16.0.0",
-        "semantic-release": "24.2.4",
+        "semantic-release": "24.2.5",
         "typescript": "5.8.3"
     },
     "peerDependencies": {
