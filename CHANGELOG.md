@@ -1,3 +1,10 @@
+## [2.0.16](https://github.com/ycycwx/config/compare/v2.0.15...v2.0.16) (2025-05-31)
+
+
+### Bug Fixes
+
+* **deps:** update eslint monorepo to v9.28.0 ([#578](https://github.com/ycycwx/config/issues/578)) ([c458b59](https://github.com/ycycwx/config/commit/c458b593df66ea12ff3ffeb0ed88c83a46dcaed8))
+
 ## [2.0.15](https://github.com/ycycwx/config/compare/v2.0.14...v2.0.15) (2025-05-13)
 
 
