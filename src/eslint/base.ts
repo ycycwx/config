@@ -330,7 +330,7 @@ export default defineConfig([
             // type import related
             'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
             '@stylistic/indent': ['error', 4],
-            '@stylistic/func-call-spacing': ['error'],
+            '@stylistic/function-call-spacing': ['error'],
             '@stylistic/member-delimiter-style': [
                 'error',
                 {
