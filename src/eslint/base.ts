@@ -495,7 +495,6 @@ export default defineConfig([
             '@stylistic/jsx-equals-spacing': ['error', 'never'],
             '@stylistic/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
             '@stylistic/jsx-indent-props': ['error', 4],
-            '@stylistic/jsx-indent': ['error', 4],
             '@stylistic/jsx-max-props-per-line': [
                 'error',
                 {
