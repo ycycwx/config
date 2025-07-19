@@ -1,3 +1,10 @@
+## [2.0.22](https://github.com/ycycwx/config/compare/v2.0.21...v2.0.22) (2025-07-19)
+
+
+### Bug Fixes
+
+* instead deprecated @stylistic/jsx-indent with @stylistic/indent ([4f86b24](https://github.com/ycycwx/config/commit/4f86b24906bd3b4ae6cf6d0449e35af8b72ae1d4))
+
 ## [2.0.21](https://github.com/ycycwx/config/compare/v2.0.20...v2.0.21) (2025-07-19)
 
 
