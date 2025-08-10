@@ -450,7 +450,8 @@ export default defineConfig([
             '@stylistic/object-curly-spacing': ['error', 'never'],
             '@stylistic/object-property-newline': ['off'],
             '@stylistic/one-var-declaration-per-line': ['error'],
-            '@stylistic/operator-linebreak': ['error', 'before'],
+            '@stylistic/operator-linebreak': ['error', 'before', {'overrides': {'=': 'after'}}],
+
             '@stylistic/padded-blocks': ['off'],
             '@stylistic/padding-line-between-statements': ['off'],
             '@stylistic/quote-props': ['off'],
