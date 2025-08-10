@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/ycycwx/config/compare/v2.1.0...v2.1.1) (2025-08-10)
+
+
+### Bug Fixes
+
+* allow '=' after previous line for typescript union types ([aca5ee3](https://github.com/ycycwx/config/commit/aca5ee3d8211de173b76bb99cc6d0e9b53a3d940))
+
 # [2.1.0](https://github.com/ycycwx/config/compare/v2.0.22...v2.1.0) (2025-08-10)
 
 
