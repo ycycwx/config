@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/ycycwx/config/compare/v2.0.22...v2.1.0) (2025-08-10)
+
+
+### Features
+
+* upgrade typescript 5.9 ([8371298](https://github.com/ycycwx/config/commit/83712983bedd0e5f33a2f95cd3f73bbe4b3e0899))
+
 ## [2.0.22](https://github.com/ycycwx/config/compare/v2.0.21...v2.0.22) (2025-07-19)
 
 
