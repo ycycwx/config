@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/ycycwx/config/compare/v2.1.3...v2.2.0) (2025-09-06)
+
+
+### Features
+
+* upgrade typescript-eslint & remove deprecated jsx-props-no-multi-spaces & tseslint.config ([02dd5c7](https://github.com/ycycwx/config/commit/02dd5c7cd1253039171248117b0ca2ff726bee27))
+
 ## [2.1.3](https://github.com/ycycwx/config/compare/v2.1.2...v2.1.3) (2025-08-23)
 
 
