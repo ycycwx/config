@@ -1,9 +1,10 @@
 /* eslint-disable import/no-named-as-default-member */
 
 import importPlugin from 'eslint-plugin-import';
+import {defineConfig} from 'eslint/config';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
+export default defineConfig(
     tseslint.configs.strictTypeChecked,
     tseslint.configs.stylisticTypeChecked,
     {

@@ -18,7 +18,7 @@ export default (presets: Preset[] | Preset | undefined, ...configWithExtendsArra
         ...(resolvedPresets.includes('node') ? node : []),
         ...(resolvedPresets.includes('browser') ? browser : []),
         ...(resolvedPresets.includes('react') ? react : []),
-        ...(resolvedPresets.includes('typescript') ? (typescript as Linter.Config[]) : []),
+        ...(resolvedPresets.includes('typescript') ? (typescript) : []),
         ...configWithExtendsArray,
     ]);
 };
