@@ -60,7 +60,7 @@
     "peerDependencies": {
         "eslint": "^9.22.0"
     },
-    "packageManager": "pnpm@10.16.1",
+    "packageManager": "pnpm@10.17.1",
     "publishConfig": {
         "access": "public"
     }
