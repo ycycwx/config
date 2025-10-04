@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/ycycwx/config/compare/v2.3.0...v2.3.1) (2025-10-04)
+
+
+### Bug Fixes
+
+* add react hooks fallback recommended rules when new rules introduced ([e3514e4](https://github.com/ycycwx/config/commit/e3514e4f436b295201dcf93b3c500b5b26348327))
+
 # [2.3.0](https://github.com/ycycwx/config/compare/v2.2.0...v2.3.0) (2025-10-02)
 
 
