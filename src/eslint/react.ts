@@ -22,6 +22,10 @@ export default defineConfig([
                 ...globals.browser,
             },
         },
+        extends: [
+            // Fallback when new rules introduced
+            'react-hooks/recommended-latest',
+        ],
         rules: {
             'react/jsx-no-bind': ['off'],
             'react/jsx-uses-react': ['off'],
@@ -135,7 +139,7 @@ export default defineConfig([
                     },
                 },
             ],
-            // react-hooks
+            // Override some react-hooks recommended rules
             'react-hooks/exhaustive-deps': ['error'],
             'react-hooks/rules-of-hooks': ['error'],
             'react-hooks/component-hook-factories': ['error'],
