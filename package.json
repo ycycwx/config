@@ -54,7 +54,7 @@
         "eslint": "9.37.0",
         "husky": "9.1.7",
         "lint-staged": "16.2.4",
-        "semantic-release": "25.0.0",
+        "semantic-release": "25.0.1",
         "typescript": "5.9.3"
     },
     "peerDependencies": {
