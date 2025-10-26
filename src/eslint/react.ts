@@ -5,11 +5,11 @@ import importPlugin from 'eslint-plugin-import';
 import {defineConfig} from 'eslint/config';
 
 export default defineConfig([
+    reactHooks.configs.flat['recommended-latest'],
     {
         files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
         plugins: {
             react: reactPlugin,
-            'react-hooks': reactHooks,
         },
         settings: {
             ...importPlugin.flatConfigs.react.settings,
@@ -22,10 +22,6 @@ export default defineConfig([
                 ...globals.browser,
             },
         },
-        extends: [
-            // Fallback when new rules introduced
-            'react-hooks/recommended-latest',
-        ],
         rules: {
             'react/jsx-no-bind': ['off'],
             'react/jsx-uses-react': ['off'],
