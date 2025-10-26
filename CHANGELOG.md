@@ -1,3 +1,10 @@
+## [2.3.2](https://github.com/ycycwx/config/compare/v2.3.1...v2.3.2) (2025-10-26)
+
+
+### Bug Fixes
+
+* upgrade eslint-plugin-react-hooks to fix typing issue ([bfe01e1](https://github.com/ycycwx/config/commit/bfe01e13aadddc63f6e9f25d74262e168b1955ae))
+
 ## [2.3.1](https://github.com/ycycwx/config/compare/v2.3.0...v2.3.1) (2025-10-04)
 
 
