@@ -36,7 +36,7 @@
     "homepage": "https://github.com/ycycwx/config#readme",
     "dependencies": {
         "@eslint-community/eslint-plugin-eslint-comments": "^4.5.0",
-        "@eslint/js": "^9.38.0",
+        "@eslint/js": "^9.39.1",
         "@stylistic/eslint-plugin": "^5.5.0",
         "eslint-import-resolver-alias": "^1.1.2",
         "eslint-import-resolver-typescript": "^4.4.4",
@@ -44,14 +44,14 @@
         "eslint-plugin-react": "^7.37.5",
         "eslint-plugin-react-hooks": "^7.0.1",
         "globals": "^16.4.0",
-        "typescript-eslint": "^8.46.2"
+        "typescript-eslint": "^8.46.3"
     },
     "devDependencies": {
         "@commitlint/cli": "20.1.0",
         "@commitlint/config-conventional": "20.0.0",
         "@semantic-release/changelog": "6.0.3",
         "@semantic-release/git": "10.0.1",
-        "eslint": "9.38.0",
+        "eslint": "9.39.1",
         "husky": "9.1.7",
         "lint-staged": "16.2.6",
         "semantic-release": "25.0.1",
