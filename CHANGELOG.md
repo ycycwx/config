@@ -1,3 +1,10 @@
+## [2.3.3](https://github.com/ycycwx/config/compare/v2.3.2...v2.3.3) (2025-12-03)
+
+
+### Bug Fixes
+
+* force bumping version with ci upgrade ([a16cc49](https://github.com/ycycwx/config/commit/a16cc499c7a7c523e90e4cfcb89e9dd1abaf619a))
+
 ## [2.3.2](https://github.com/ycycwx/config/compare/v2.3.1...v2.3.2) (2025-10-26)
 
 
