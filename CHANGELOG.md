@@ -1,3 +1,10 @@
+## [2.3.4](https://github.com/ycycwx/config/compare/v2.3.3...v2.3.4) (2025-12-03)
+
+
+### Bug Fixes
+
+* triggering release for auth upgrade in ci ([8b2a23b](https://github.com/ycycwx/config/commit/8b2a23bc0439ef43b1aa219b7e004477d7c9db8d))
+
 ## [2.3.3](https://github.com/ycycwx/config/compare/v2.3.2...v2.3.3) (2025-12-03)
 
 
