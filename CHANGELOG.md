@@ -1,3 +1,10 @@
+## [2.3.5](https://github.com/ycycwx/config/compare/v2.3.4...v2.3.5) (2026-01-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to v17 ([#661](https://github.com/ycycwx/config/issues/661)) ([2c554a3](https://github.com/ycycwx/config/commit/2c554a3bc7d69c4253eade01a49d940f7483360f))
+
 ## [2.3.4](https://github.com/ycycwx/config/compare/v2.3.3...v2.3.4) (2025-12-03)
 
 
