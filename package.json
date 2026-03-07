@@ -36,7 +36,7 @@
     "homepage": "https://github.com/ycycwx/config#readme",
     "dependencies": {
         "@eslint-community/eslint-plugin-eslint-comments": "^4.7.1",
-        "@eslint/js": "^9.39.3",
+        "@eslint/js": "^9.39.4",
         "@stylistic/eslint-plugin": "^5.10.0",
         "eslint-import-resolver-alias": "^1.1.2",
         "eslint-import-resolver-typescript": "^4.4.4",
