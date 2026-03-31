@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/ycycwx/config/compare/v2.3.5...v2.4.0) (2026-03-31)
+
+
+### Features
+
+* upgrade typescript-eslint for supporting typescript 6.0 for peer dependencies ([db9b057](https://github.com/ycycwx/config/commit/db9b057ca5045bc16991651fe985e1163a96c32a))
+
 ## [2.3.5](https://github.com/ycycwx/config/compare/v2.3.4...v2.3.5) (2026-01-08)
 
 
