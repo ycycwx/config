@@ -138,7 +138,6 @@ export default defineConfig([
             // Override some react-hooks recommended rules
             'react-hooks/exhaustive-deps': ['error'],
             'react-hooks/rules-of-hooks': ['error'],
-            'react-hooks/component-hook-factories': ['error'],
             'react-hooks/error-boundaries': ['error'],
             'react-hooks/globals': ['error'],
             'react-hooks/immutability': ['error'],
