@@ -1,3 +1,10 @@
+## [2.4.1](https://github.com/ycycwx/config/compare/v2.4.0...v2.4.1) (2026-04-18)
+
+
+### Bug Fixes
+
+* remove deprecated eslint-plugin-react-hooks rule: component-hook-factories ([f6c387c](https://github.com/ycycwx/config/commit/f6c387c067bd62c903f3bc99239dbc4a3e6a4e40))
+
 # [2.4.0](https://github.com/ycycwx/config/compare/v2.3.5...v2.4.0) (2026-03-31)
 
 
