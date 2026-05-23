@@ -1,3 +1,10 @@
+## [2.4.2](https://github.com/ycycwx/config/compare/v2.4.1...v2.4.2) (2026-05-23)
+
+
+### Bug Fixes
+
+* add prefer-reduce-type-parameter eslint rule ([6d0da78](https://github.com/ycycwx/config/commit/6d0da787084d083403da1408db341715cd3fc5b0))
+
 ## [2.4.1](https://github.com/ycycwx/config/compare/v2.4.0...v2.4.1) (2026-04-18)
 
 
