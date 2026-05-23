@@ -114,6 +114,7 @@ export default defineConfig(
             '@typescript-eslint/prefer-includes': ['warn'],
             '@typescript-eslint/prefer-namespace-keyword': ['error'],
             '@typescript-eslint/prefer-readonly': ['error'],
+            '@typescript-eslint/prefer-reduce-type-parameter': ['error'],
             '@typescript-eslint/prefer-regexp-exec': ['warn'],
             '@typescript-eslint/prefer-string-starts-ends-with': ['error'],
             '@typescript-eslint/promise-function-async': ['off'],
