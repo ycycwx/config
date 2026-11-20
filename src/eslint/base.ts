@@ -350,7 +350,6 @@ export default defineConfig([
             '@stylistic/quotes': ['error', 'single'],
             '@stylistic/template-curly-spacing': ['off', 'never'],
             '@stylistic/brace-style': ['error', 'stroustrup'],
-            '@stylistic/function-call-argument-newline': ['warn', 'consistent'],
             '@stylistic/no-multiple-empty-lines': [
                 'warn',
                 {
@@ -359,8 +358,6 @@ export default defineConfig([
                     maxBOF: 0,
                 },
             ],
-            '@stylistic/array-bracket-newline': ['warn', 'consistent'],
-            '@stylistic/array-bracket-spacing': ['error', 'never'],
             '@stylistic/arrow-parens': ['error', 'as-needed'],
             '@stylistic/arrow-spacing': ['error'],
             '@stylistic/block-spacing': ['error', 'never'],
@@ -432,6 +429,7 @@ export default defineConfig([
                 {
                     exceptions: {
                         Property: false,
+                        ImportAttribute: true,
                     },
                     ignoreEOLComments: false,
                 },
@@ -440,15 +438,23 @@ export default defineConfig([
             '@stylistic/no-trailing-spaces': ['error'],
             '@stylistic/no-whitespace-before-property': ['error'],
             '@stylistic/nonblock-statement-body-position': ['off'],
-            '@stylistic/object-curly-newline': [
+            '@stylistic/list-style': [
                 'error',
                 {
-                    consistent: true,
-                    multiline: true,
+                    overrides: {
+                        '[]': {empty: 'never', singleLine: {spacing: 'never'}},
+                        '{}': {singleLine: {spacing: 'never'}},
+                        '()': 'off',
+                        '<>': 'off',
+                        // Limit parentheses checks to call and constructor arguments.
+                        CallExpression: {},
+                        NewExpression: {},
+                        JSONArrayExpression: 'off',
+                        JSONObjectExpression: 'off',
+                        TSTupleType: 'off',
+                    },
                 },
             ],
-            '@stylistic/object-curly-spacing': ['error', 'never'],
-            '@stylistic/object-property-newline': ['off'],
             '@stylistic/one-var-declaration-per-line': ['error'],
             '@stylistic/operator-linebreak': ['error', 'before', {overrides: {'=': 'after'}}],
             '@stylistic/padded-blocks': ['off'],
@@ -507,7 +513,6 @@ export default defineConfig([
                     allowAllCaps: true,
                 },
             ],
-            '@stylistic/jsx-sort-props': ['off'],
             '@stylistic/jsx-tag-spacing': [
                 'error',
                 {
