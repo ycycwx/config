@@ -1,3 +1,10 @@
+## [2.4.3](https://github.com/ycycwx/config/compare/v2.4.2...v2.4.3) (2026-11-22)
+
+
+### Bug Fixes
+
+* **deps:** upgrade ESLint Stylistic to v6 ([70ac03c](https://github.com/ycycwx/config/commit/70ac03c8f175cac036a4936961c1d63a49caa2fd))
+
 ## [2.4.2](https://github.com/ycycwx/config/compare/v2.4.1...v2.4.2) (2026-05-23)
 
 
